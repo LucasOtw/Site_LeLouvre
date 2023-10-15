@@ -1,0 +1,77 @@
+body {
+    background-image: url('images/fond.gif');
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+header > blockquote {
+    border: 4px solid rgb(151, 36, 36);
+    padding: 1em;
+    border-radius: 12px;
+    background-color: rgb(151, 36, 36);
+    text-align: right;
+    
+}
+
+header > section {
+    font-style: italic;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+article > figure {
+    margin-left: 13em;
+    margin-right: 20em;
+    border-left: 10px double rgb(151, 36, 36) ; /* Une bordure double de 3 pixels */
+    border-right: 10px double rgb(151, 36, 36);
+}
+
+article > figure > figcaption {
+    border: 4px solid rgb(151, 36, 36);
+    background-color: rgb(151, 36, 36);
+    border-radius : 12px;
+    text-align: right;
+    width: 30em;
+
+}
+
+div {
+    border : 4px solid rgb(151, 36, 36);
+    padding : 2em;
+    background-color: antiquewhite;
+    margin-left: 30em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+nav {
+    border : 4px solid rgb(151, 36, 36);
+    padding : 2em;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 350px;
+    position: fixed;
+
+}
+
+div + aside {
+    border : 4px solid rgb(151, 36, 36);
+    background-color: rgb(151, 36, 36);
+    padding : 2em;
+    width: 195px;
+    border-radius: 12px;
+   
+}
+
+footer {
+    
+    border : 4px solid rgb(151, 36, 36);
+    background-color: rgb(151, 36, 36);
+    padding : 1em;
+    border-radius: 12px;
+    color: aliceblue;
+    font-style: italic;
+}
